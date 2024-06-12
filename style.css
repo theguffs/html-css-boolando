@@ -1,0 +1,53 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+
+/*header*/
+header{
+    background-color: rgb(255, 105, 0);
+}
+.container-header{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.sinistra{
+    width: 20%;
+    align-self: center;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 0.85em;
+}
+.centro{
+    width: 60%;
+
+}
+.logo{
+    display: block;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+}
+.destra{
+    width: 20%;
+    align-self: center;
+}
+i{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+/* fine header*/
+/* inizio body*/
