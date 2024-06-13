@@ -56,10 +56,11 @@ i{
 .container-body{
     width: 1000px;
     margin: auto;
+    display: flex;
 }
 .prodotto{
     width: calc(100% / 3);
-    display: inline-block;
+
 }
 .prodotto-top{
     position: relative;
