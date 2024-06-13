@@ -50,4 +50,53 @@ i{
     text-align: center;
 }
 /* fine header*/
-/* inizio body*/
+
+/* inizio main*/
+
+.container-body{
+    width: 1000px;
+    margin: auto;
+}
+.prodotto{
+    width: calc(100% / 3);
+    display: inline-block;
+}
+.prodotto-top{
+    position: relative;
+}
+.cuore{
+    display:block;
+    font-size: 3em;
+    position: absolute;
+    top:2%;
+    right: 0;
+    color: black ; 
+    background-color: white;
+    padding: 5px;
+    /*display: none;  Nascondiamo il simbolo inizialmente */ 
+}  
+.sconto{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.sostenibilità{
+    position: absolute;
+    left: 50px;
+    bottom: 10%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.scritte{
+    text-align: start;
+}
+.text-oggetto{
+    font-size: 1.1rem;
+}
+.prezzo-rosso {
+    color: red;
+}
