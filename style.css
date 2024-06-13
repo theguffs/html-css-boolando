@@ -7,20 +7,20 @@
 img{
     max-width: 100%;
 }
-
-
 /*header*/
+body{
+    position: relative;
+    margin: 0 auto;
+}
 header{
     background-color: rgb(255, 105, 0);
 }
 .container-header{
     display: flex;
-    width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px ;
     margin: auto;
-}
-.sinistra{
-    width: 20%;
-    align-self: center;
 }
 a{
     padding: 5px;
@@ -29,20 +29,13 @@ a{
     text-align: center;
     font-size: 0.85em;
 }
-.centro{
-    width: 60%;
-
-}
 .logo{
     display: block;
     height: 40px;
     margin: auto;
     padding: 10px;
 }
-.destra{
-    width: 20%;
-    align-self: center;
-}
+
 i{
     padding: 5px;
     text-decoration: none;
@@ -54,12 +47,13 @@ i{
 /* inizio main*/
 
 .container-body{
+    padding-top: 30px;
     width: 1000px;
     margin: auto;
     display: flex;
 }
 .prodotto{
- width: calc((100% /3) - 20 px);
+ width: 32%;
  padding: 10px;
 
 }
@@ -101,4 +95,27 @@ i{
 }
 .prezzo-rosso {
     color: red;
+}
+footer{
+    background-color: black;
+}
+.container-footer{
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px ;
+    margin: auto;
+}
+h5{
+    padding: 5px;
+    color: white;
+}
+p{
+    display: inline-block;
+    font-size: 0.8em;
+}
+.dove-trovarci{
+    display: inline-block;
 }
